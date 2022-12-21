@@ -1,8 +1,6 @@
 <p align="center">
   <img src="https://github.com/dxvil-exe/react-website/raw/main/public/logo_transparent.png" width="150px" height="150px" align="center">
 </p>
-![Vercel](https://vercelbadge.vercel.app/api/dxvil-exe/react-website?style=for-the-badge)
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
