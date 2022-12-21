@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         benzin: "benzin",
+        gothic: "gothic",
       },
       backgroundImage: {
         'glare': "url('../public/glare.png')",

@@ -4,6 +4,7 @@
 
 html,
 body {
+  background: url("../public/production\ ID_4990245.gif") fixed center;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -22,4 +23,9 @@ a {
 @font-face {
   font-family: "benzin";
   src: url('../public/Benzin\ Extra\ Bold.ttf');
+}
+
+@font-face {
+  font-family: "gothic";
+  src: url('../public/DelaGothicOne-Regular.ttf');
 }
