@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import Image from 'next/image.js'
 const logo = require('../public/logo_transparent.png');
-
 export default function Home() {
 
   return (
@@ -26,7 +25,7 @@ export default function Home() {
               <a className='font-benzin'>MERCH</a>
             </li>
             <li>
-              <a className='font-benzin'>CODE</a>
+              <a href="https://github.com/dxvil-exe/react-website" target="_blank" rel="noreferrer" className='font-benzin'>CODE</a>
             </li>
             <li>
               <a className='font-benzin'>DESIGN</a>
