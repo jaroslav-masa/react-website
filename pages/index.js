@@ -1,34 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Head from 'next/head'
-//import fs from 'fs'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import { useState } from 'react'
 import getToken from './api/spotifyAPI.js'
 import Image from 'next/image.js'
 
-//const fs = require('fs'); // import the 'fs' module for reading files
-const imageFolder = "./public/Images"; // the name of the folder that contains the images
-
-var fileNames = fs.readdirSync(imageFolder); // get an array of file names from the 'Images' folder
-
-var indents = [];
-for (var i = 0; i < fileNames.length; i++) {
-  indents.push(<p>{fileNames[i]}</p>);
-}
-
 export default function Home() {
   
   const [ darkMode, setDarkmode] = useState(true);
   
-  getToken.execute();
-
-  var indents = [];
-  for (var i = 0; i < this.props.level; i++) {
-    indents.push(
-    <div className='dark:bg-slate-800 bg-slate-300 p-5 rounded-md m-2 dark:text-white'>
-      <Image src={i} width={300} draggable="false" ></Image>
-    </div>);
-  }
+  //getToken.execute();
 
   return (
     <div className={darkMode ? "dark" : "light"}>
@@ -49,7 +30,6 @@ export default function Home() {
           <div>
             <h1 className='capitalize m-3 text-3xl font-benzin dark:text-sky-600 text-slate-800 text-center'>LATEST RELEASES</h1>
             <div className='grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 gap-4'>
-              {indents}
             </div>            
           </div>
           <div>
